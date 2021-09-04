@@ -1,0 +1,29 @@
+{
+  "name": "nodeAPI",
+  "version": "1.0.0",
+  "description": "\"# nodeAPI\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielBarrosAS/nodeAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielBarrosAS/nodeAPI/issues"
+  },
+  "homepage": "https://github.com/GabrielBarrosAS/nodeAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
